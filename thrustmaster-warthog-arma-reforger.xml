@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile version="16" start_mode="Default" default_mode="Default" restore_last="False" force_numlock="True" force_numlock_on="False">
+  <modes>
+    <mode name="Default"/>
+    <mode name="b3b159a04d064bd693f97583ec08b877"/>
+  </modes>
+  <removed-devices>
+    <device id="745336c0f29a11ee8001444553540000"/>
+    <device id="818672c097cc11f08001444553540000"/>
+  </removed-devices>
+  <devices>
+    <device name="Joystick - HOTAS Warthog" label="" device-guid="571374f0daa411f08001444553540000" type="joystick">
+      <mode name="Default">
+        <axis id="1">
+          <container type="basic" container_id="39166e1b18b249438b3c137dd22bf42b" collapsed="False">
+            <action-set>
+              <vjoyremap vjoy="1" axis="1" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="1" action_id="b87b1eb6cab54d52b4655957727f0dad" priority="9">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </vjoyremap>
+            </action-set>
+            <activation-condition rule="all" condition_id="18bc21a870844488b4d188548d6f8c4e"/>
+          </container>
+        </axis>
+        <axis id="2">
+          <container type="basic" container_id="739a96236b4d4da2bd3db6fccf982c71" collapsed="False">
+            <action-set>
+              <vjoyremap vjoy="1" axis="2" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="2" action_id="6c23e0167f654c1185d959752bf4b49c" priority="9">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </vjoyremap>
+            </action-set>
+            <activation-condition rule="all" condition_id="c3551b5f87204c36bd49429d1bcebea5"/>
+          </container>
+        </axis>
+      </mode>
+    </device>
+  </devices>
+  <settings>
+    <default-delay>0.05000000</default-delay>
+    <input-filter>
+      <device id="7ae3d6b0dffc11f08001444553540000" name="T-Rudder"/>
+      <filter device="7ae3d6b0dffc11f08001444553540000" type="axis" id="1" filter="False"/>
+      <filter device="7ae3d6b0dffc11f08001444553540000" type="axis" id="2" filter="False"/>
+      <filter device="7ae3d6b0dffc11f08001444553540000" type="axis" id="3" filter="False"/>
+      <device id="559e1d90daa511f08003444553540000" name="Throttle - HOTAS Warthog"/>
+      <filter device="559e1d90daa511f08003444553540000" type="axis" id="1" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="axis" id="2" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="axis" id="3" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="axis" id="6" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="axis" id="7" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="1" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="2" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="3" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="4" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="5" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="6" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="7" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="8" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="9" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="10" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="11" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="12" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="13" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="14" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="15" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="16" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="17" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="18" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="19" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="20" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="21" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="22" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="23" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="24" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="25" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="26" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="27" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="28" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="29" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="30" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="31" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="button" id="32" filter="False"/>
+      <filter device="559e1d90daa511f08003444553540000" type="hat" id="1" filter="False"/>
+      <device id="571374f0daa411f08001444553540000" name="Joystick - HOTAS Warthog"/>
+      <filter device="571374f0daa411f08001444553540000" type="axis" id="1" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="axis" id="2" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="1" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="2" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="3" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="4" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="5" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="6" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="7" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="8" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="9" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="10" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="11" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="12" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="13" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="14" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="15" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="16" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="17" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="18" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="19" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="hat" id="1" filter="False"/>
+      <device id="745336c0f29a11ee8001444553540000" name="Controller (XBOX 360 For Windows)"/>
+      <device id="818672c097cc11f08001444553540000" name="Controller (XBOX 360 For Windows)"/>
+    </input-filter>
+  </settings>
+  <plugins/>
+  <start>
+    <devices/>
+  </start>
+  <states>
+    <categories>
+      <category name="default" id="5e54b523700c4a5996bfea85ce1ea75e"/>
+    </categories>
+  </states>
+</profile>
