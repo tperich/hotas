@@ -1,42 +1,556 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<profile version="16" start_mode="Default" default_mode="Default" restore_last="False" force_numlock="True" force_numlock_on="False">
+<profile version="16" start_mode="Flying" default_mode="Flying" restore_last="False" force_numlock="True" force_numlock_on="False">
   <modes>
     <mode name="Default"/>
     <mode name="b3b159a04d064bd693f97583ec08b877"/>
+    <mode name="Flying"/>
+    <mode name="Map"/>
   </modes>
-  <removed-devices>
-    <device id="745336c0f29a11ee8001444553540000"/>
-    <device id="818672c097cc11f08001444553540000"/>
-  </removed-devices>
   <devices>
+    <device name="Throttle - HOTAS Warthog" label="" device-guid="559e1d90daa511f08003444553540000" type="joystick">
+      <mode name="Flying">
+        <axis id="3" description="Collective">
+          <container type="basic" container_id="3c029f7a8cba498f924f2969af2fd41f" collapsed="False">
+            <action-set>
+              <vjoyremap vjoy="1" axis="3" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="3" action_id="4ece6ed9075544b99401acc539586c1b" priority="9">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </vjoyremap>
+            </action-set>
+            <activation-condition rule="all" condition_id="276fa08deb584dbe8cdd77f37e32c90d"/>
+          </container>
+        </axis>
+        <button id="10" description="PTT Proximity">
+          <container type="basic" container_id="7e37fbc89a7b433eacaba0c06df26e56" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="17ae7978b8774c599990627ff46aa05d" priority="5">
+                <!--virtual: Mouse 5 (back) 0x0/0 scan code: 0x1005/4101 extended: False-->
+                <key virtual-code="0" scan-code="4101" extended="False" description="Mouse 5 (back)"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="ff20287a415d4497b70c0cacf43d361c"/>
+          </container>
+        </button>
+        <button id="11" description="Lights">
+          <container type="basic" container_id="b6385b84e7434cca92d38ec376d73813" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="34449a97606646ea817e5a5cccf457bc" priority="5">
+                <!--virtual: L 0x4c/76 scan code: 0x26/38 extended: False-->
+                <key virtual-code="76" scan-code="38" extended="False" description="L"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="72cad3f57f464aa8a86ea0ebd8f4653a"/>
+          </container>
+        </button>
+        <button id="12" description="Engine">
+          <container type="basic" container_id="f82469a9c51b43e8bceaae222c42df91" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="6761df0eb0364c189ed50fa08efda76e" priority="5">
+                <!--virtual: R 0x52/82 scan code: 0x13/19 extended: False-->
+                <key virtual-code="82" scan-code="19" extended="False" description="R"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="c68c52b31e144fb586d30004473d63fc"/>
+          </container>
+        </button>
+        <button id="15" description="Toggle Autopilot">
+          <container type="basic" container_id="f3f4a12961b243a8992d932b58964b35" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="8368b0dd2d1d440bbec2178101692712" priority="5">
+                <!--virtual: C 0x43/67 scan code: 0x2e/46 extended: False-->
+                <key virtual-code="67" scan-code="46" extended="False" description="C"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="558a059a801c4939972382db966e195f"/>
+          </container>
+        </button>
+        <button id="2" description="Media - Play/Pause">
+          <container type="basic" container_id="104184ce37bc41169efff364d8c7d773" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="5556cf7fd56144ffbc9eb7f81b35ab63" priority="5">
+                <!--virtual: Play/Pause 0xb3/179 scan code: 0x22/34 extended: True-->
+                <key virtual-code="179" scan-code="34" extended="True" description="Play/Pause"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="bdd038b2c9f24b6a99486d64836965d1"/>
+          </container>
+        </button>
+        <button id="3" description="Media - Volume Up">
+          <container type="basic" container_id="465a3fe0b4f74cd1b5687fe523e095f4" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="11d73f45b075480880d09f5681176d11" priority="5">
+                <!--virtual: Volume Up 0xaf/175 scan code: 0x30/48 extended: True-->
+                <key virtual-code="175" scan-code="48" extended="True" description="Volume Up"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="9c1c4352a52040aaa0cefbb2096b64ba"/>
+          </container>
+        </button>
+        <button id="4" description="Media - Next Track">
+          <container type="basic" container_id="813c82fa48c043628db4c7e3bb618db6" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="c48ce28dbe6943fd8da6ddd27754d8db" priority="5">
+                <!--virtual: Next Track 0xb0/176 scan code: 0x21/33 extended: True-->
+                <key virtual-code="176" scan-code="33" extended="True" description="Next Track"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="19ba29f3e46e4f09aa218c0f4b0f9e50"/>
+          </container>
+        </button>
+        <button id="5" description="Media - Volume Down">
+          <container type="basic" container_id="d198593a91b0473e8497042f85c124c3" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="fdc5c27d3fcb42579b05bb9ec942275a" priority="5">
+                <!--virtual: Volume Down 0xae/174 scan code: 0x1e/30 extended: True-->
+                <key virtual-code="174" scan-code="30" extended="True" description="Volume Down"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="4a05175a82a2430d888c9a3cc5ea0a16"/>
+          </container>
+        </button>
+        <button id="6" description="Media - Previous Track">
+          <container type="basic" container_id="3598557bdf8041c395468fb87c6ea807" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="7bb7b3f3b2af4dfba66452f5d953e4eb" priority="5">
+                <!--virtual: Prev Track 0xb1/177 scan code: 0x23/35 extended: True-->
+                <key virtual-code="177" scan-code="35" extended="True" description="Prev Track"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="a693aababf0d4f918a9e87a6ef296522"/>
+          </container>
+        </button>
+        <button id="7" description="Toggle Map">
+          <container type="basic" container_id="fb7b0a7f1f4648358f6d774aa679dd5b" collapsed="False">
+            <action-set>
+              <temporary-mode-switch name="Map" return-mode-enabled="False" return-mode="none" exec-on-press="True" exec-on-release="False" action_id="4aea8eb58a04437b9eecb11c7aa34883" priority="999">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </temporary-mode-switch>
+            </action-set>
+            <activation-condition rule="all" condition_id="efa22274e029421ca1a829c1c1ddb8f0"/>
+          </container>
+        </button>
+        <button id="8" description="Change Frequency">
+          <container type="basic" container_id="38b1ad28aeec44d0bc17c8bcbeb5a19b" collapsed="False">
+            <action-set>
+              <macro execute-on-press="True" execute-on-release="False" autorestart="False" autostop="False" action_id="afdaa80a719948afaebae9be58c84816" priority="5">
+                <properties/>
+                <actions>
+                  <key scan-code="58" extended="False" press="True"/>
+                  <key scan-code="58" extended="False" press="False"/>
+                  <pause duration="0.12786340713500977" duration_max="0" is_random="False"/>
+                  <key scan-code="58" extended="False" press="True"/>
+                  <key scan-code="58" extended="False" press="False"/>
+                </actions>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </macro>
+            </action-set>
+            <activation-condition rule="all" condition_id="1b7b340329014850bd935b5d49ddec32"/>
+          </container>
+        </button>
+        <button id="9" description="PTT Radio">
+          <container type="basic" container_id="e744e7acca044c7cae252fc35c2de6a3" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="6ceb5383c61d4f67bbbbb6571528e9ee" priority="5">
+                <!--virtual: Mouse 4 (forward) 0x0/0 scan code: 0x1004/4100 extended: False-->
+                <key virtual-code="0" scan-code="4100" extended="False" description="Mouse 4 (forward)"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="a4b4092b5674446eb49018ae2669b666"/>
+          </container>
+        </button>
+        <hat id="1">
+          <container type="basic" container_id="261464b443494a47bbeb6f690f619a49" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="cc85acf4146f4f6dbab7d7c33e41bb6c" priority="5">
+                <!--virtual: N 0x4e/78 scan code: 0x31/49 extended: False-->
+                <key virtual-code="78" scan-code="49" extended="False" description="N"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <virtual-button south="1"/>
+            <activation-condition rule="all" condition_id="5a5fe797f08c41c3b34b11f6f1f6b54b"/>
+          </container>
+        </hat>
+      </mode>
+    </device>
     <device name="Joystick - HOTAS Warthog" label="" device-guid="571374f0daa411f08001444553540000" type="joystick">
-      <mode name="Default">
-        <axis id="1">
-          <container type="basic" container_id="39166e1b18b249438b3c137dd22bf42b" collapsed="False">
+      <mode name="Flying">
+        <axis id="1" description="Cyclic Forward/Back">
+          <container type="basic" container_id="debf3fb900fc429790c20195995ca602" collapsed="False">
             <action-set>
-              <vjoyremap vjoy="1" axis="1" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="1" action_id="b87b1eb6cab54d52b4655957727f0dad" priority="9">
+              <vjoyremap vjoy="1" axis="1" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" grid-visible="True" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="1" action_id="cec371e27070413ca2e748bfa1588020" priority="9">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </vjoyremap>
+            </action-set>
+            <activation-condition rule="all" condition_id="cb2e13767041459a83f5fcfc77a50dd4"/>
+          </container>
+        </axis>
+        <axis id="2" description="Cyclic Left/Right">
+          <container type="basic" container_id="d5a3a643426642a5b85f176548e6300e" collapsed="False">
+            <action-set>
+              <vjoyremap vjoy="1" axis="2" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" grid-visible="True" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="2" action_id="ea7f144f6f8b445e93544927983993bf" priority="9">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </vjoyremap>
+            </action-set>
+            <activation-condition rule="all" condition_id="e720032227274b199b3327a7083dab74"/>
+          </container>
+        </axis>
+        <button id="1" description="Confirm Lock-on">
+          <container type="basic" container_id="93ef7937342545f6ab2fdebc765a799a" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="06ffb1d0c8434a8f9034a1880b06fc3f" priority="5">
+                <!--virtual: T 0x54/84 scan code: 0x14/20 extended: False-->
+                <key virtual-code="84" scan-code="20" extended="False" description="T"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="407ae4f3387a4147b34e0858425561f8"/>
+          </container>
+        </button>
+        <button id="10" description="Change Frequency">
+          <container type="basic" container_id="31466a9fdce04916bcd440c9895797ce" collapsed="False">
+            <action-set>
+              <macro execute-on-press="True" execute-on-release="False" autorestart="False" autostop="False" action_id="131e2ee0dbdc4dc583efd1c33f778e93" priority="5">
+                <properties/>
+                <actions>
+                  <key scan-code="58" extended="False" press="True"/>
+                  <pause duration="0.25" duration_max="0.0" is_random="False"/>
+                  <key scan-code="58" extended="False" press="False"/>
+                  <key scan-code="58" extended="False" press="True"/>
+                  <pause duration="0.25" duration_max="0.0" is_random="False"/>
+                  <key scan-code="58" extended="False" press="False"/>
+                </actions>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </macro>
+            </action-set>
+            <activation-condition rule="all" condition_id="39ecc97c9dbd49bd99a12e9d6afbc53b"/>
+          </container>
+        </button>
+        <button id="15" description="Cycle Weapon">
+          <container type="basic" container_id="10d0ccde3cba4be29109168c2db49682" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="190fb8dc8bfa4e75be4c00cddd027a3c" priority="5">
+                <!--virtual: V 0x56/86 scan code: 0x2f/47 extended: False-->
+                <key virtual-code="86" scan-code="47" extended="False" description="V"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="5c15cdef029b41a2a35edd575452fede"/>
+          </container>
+        </button>
+        <button id="16" description="Deploy Chaffs">
+          <container type="basic" container_id="ce50f1cc69034ac79d91a64c33ac560b" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="4b0a3aace605413581d8a882abdfe515" priority="5">
+                <!--virtual: Left Shift 0xa0/160 scan code: 0x2a/42 extended: False-->
+                <key virtual-code="160" scan-code="42" extended="False" description="Left Shift"/>
+                <!--virtual: V 0x56/86 scan code: 0x2f/47 extended: False-->
+                <key virtual-code="86" scan-code="47" extended="False" description="V"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="5e2e768d609649e3ad7248f4d8381bc8"/>
+          </container>
+        </button>
+        <button id="17" description="Cycle Fire Mode">
+          <container type="basic" container_id="0a20712bd1c642f8a2fb0f8d5d23d96b" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="21c0b708821840a6965fc8882a9a640d" priority="5">
+                <!--virtual: V 0x56/86 scan code: 0x2f/47 extended: False-->
+                <key virtual-code="86" scan-code="47" extended="False" description="V"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="663cb9ce98224bb4bcf09ec6ad14d9e4"/>
+          </container>
+        </button>
+        <button id="18" description="Deploy Flares">
+          <container type="basic" container_id="80348644e3d64cbd9dfe99da437202bd" collapsed="False">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="65a822870b8041cd81c6c51cbfe0844e" priority="5">
+                <!--virtual: Left Shift 0xa0/160 scan code: 0x2a/42 extended: False-->
+                <key virtual-code="160" scan-code="42" extended="False" description="Left Shift"/>
+                <!--virtual: F 0x46/70 scan code: 0x21/33 extended: False-->
+                <key virtual-code="70" scan-code="33" extended="False" description="F"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="e6d4e44654a04db29474786de33d2b1c"/>
+          </container>
+        </button>
+        <button id="19" description="Zoom/Focus">
+          <container type="basic" container_id="13728505cd374fd48de13fbdb5b313ed" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="47ca9ebd062d4feb8d3c5bbd6ca00c1b" priority="5">
+                <!--virtual: Mouse 2 (right) 0x0/0 scan code: 0x1002/4098 extended: False-->
+                <key virtual-code="0" scan-code="4098" extended="False" description="Mouse 2 (right)"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="3ba92c66648e48b6ad84b4710d9f20bb"/>
+          </container>
+        </button>
+        <button id="3" description="Toggle 3rd Person">
+          <container type="basic" container_id="4ac17b3e44974f89b2a14001ec2a20c4" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="342df2749e474f08ace7f02ad1112a2d" priority="5">
+                <!--virtual: Numpad Enter 0x6c/108 scan code: 0x1c/28 extended: True-->
+                <key virtual-code="108" scan-code="28" extended="True" description="Numpad Enter"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="243cc6b45fd94b879d2644a9d3a2ea74"/>
+          </container>
+        </button>
+        <button id="4" description="Activate Lock-on">
+          <container type="basic" container_id="ad906e702b0a459b9c1108f616818d55" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="474f519cc55f4177b87012789e4b8ad4" priority="5">
+                <!--virtual: . 0xbe/190 scan code: 0x34/52 extended: False-->
+                <key virtual-code="190" scan-code="52" extended="False" description="."/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="33b32f9f0167422bbd1afd67ac7ff658"/>
+          </container>
+        </button>
+        <button id="5" description="Freelook Reset">
+          <container type="basic" container_id="86d2e91c8747434d850698b4bf5af234" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="eec4ac15f4f946d1bc93b154000a8894" priority="5">
+                <!--virtual: Numpad 5 0x65/101 scan code: 0x4c/76 extended: False-->
+                <key virtual-code="101" scan-code="76" extended="False" description="Numpad 5"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="67de0afdbfa94c59a07fb0331f115026"/>
+          </container>
+        </button>
+        <button id="6" description="Fire">
+          <container type="basic" container_id="23a49cbdcff24c7b9680b2a10ebf77f8" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="0d7b806afdd046bcb374406947fca094" priority="5">
+                <!--virtual: Mouse 1 (left) 0x0/0 scan code: 0x1001/4097 extended: False-->
+                <key virtual-code="0" scan-code="4097" extended="False" description="Mouse 1 (left)"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="d3fac61ac9bc487c83d587cdab5879f2"/>
+          </container>
+        </button>
+        <button id="7" description="PTT Radio">
+          <container type="basic" container_id="a68b5a090b634ad3b492d6fa28fd4fd1" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="5aa3e2ea70a44278b3424ad472efa41d" priority="5">
+                <!--virtual: Mouse 4 (forward) 0x0/0 scan code: 0x1004/4100 extended: False-->
+                <key virtual-code="0" scan-code="4100" extended="False" description="Mouse 4 (forward)"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="da8f7769ba0644c1bdb7fe38baa42b44"/>
+          </container>
+        </button>
+        <button id="8" description="Toggle Gunner&amp;#x27;s Sight">
+          <container type="basic" container_id="b253d8cc4eed42daab8aef096e11de58" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="56ea395795c849cd835194c280af2b84" priority="5">
+                <!--virtual: Mouse 3 (middle) 0x0/0 scan code: 0x1003/4099 extended: False-->
+                <key virtual-code="0" scan-code="4099" extended="False" description="Mouse 3 (middle)"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="241c44caf18f426d89b985bfe79ed9df"/>
+          </container>
+        </button>
+        <button id="9" description="PTT Proximity">
+          <container type="basic" container_id="3699d7b6044d43789ac7c269556ce6a4" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="978a2ee43db5462b841fef376552b9b1" priority="5">
+                <!--virtual: Mouse 5 (back) 0x0/0 scan code: 0x1005/4101 extended: False-->
+                <key virtual-code="0" scan-code="4101" extended="False" description="Mouse 5 (back)"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="948268d95e4942b78dab085c8c8a4127"/>
+          </container>
+        </button>
+        <hat id="1" description="Freelook (Map to Mouse Ex numpad workaround)">
+          <container type="basic" container_id="67edd15495164c1eac5660b7a634b74c" comment="Up" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="3307aec5e75e443792b24d04d343f032" priority="5">
+                <!--virtual: Numpad 8 0x68/104 scan code: 0x48/72 extended: False-->
+                <key virtual-code="104" scan-code="72" extended="False" description="Numpad 8"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <virtual-button north="1"/>
+            <activation-condition rule="all" condition_id="fc5bf18a0f9d4623b1b9550a766de5e0"/>
+          </container>
+          <container type="basic" container_id="bec925740c9f4310aaa78f5a607ddf76" comment="Down" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="44a6af85fa5548cdad2b63cf3314f267" priority="5">
+                <!--virtual: Numpad 2 0x62/98 scan code: 0x50/80 extended: False-->
+                <key virtual-code="98" scan-code="80" extended="False" description="Numpad 2"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <virtual-button south="1"/>
+            <activation-condition rule="all" condition_id="f9b9b347081043f587c23b5d84a51bb7"/>
+          </container>
+          <container type="basic" container_id="62aee0bd73294f42ad1c30f704c407a5" comment="Left" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="50e159b898c84637a35c821bc2b1bb4c" priority="5">
+                <!--virtual: Numpad 4 0x64/100 scan code: 0x4b/75 extended: False-->
+                <key virtual-code="100" scan-code="75" extended="False" description="Numpad 4"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <virtual-button west="1"/>
+            <activation-condition rule="all" condition_id="395c0393f93848c7af748bbfcae9dded"/>
+          </container>
+          <container type="basic" container_id="93b2831d6d944c73b16afff489d5758e" comment="Right" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="7ac4a40b02b2468b85b96b77b1a5fffb" priority="5">
+                <!--virtual: Numpad 6 0x66/102 scan code: 0x4d/77 extended: False-->
+                <key virtual-code="102" scan-code="77" extended="False" description="Numpad 6"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
+              </map-to-keyboard-ex>
+            </action-set>
+            <virtual-button east="1"/>
+            <activation-condition rule="all" condition_id="041cdfc261bf4cfe8eab1f941f71cc36"/>
+          </container>
+        </hat>
+      </mode>
+    </device>
+    <device name="T-Rudder" label="" device-guid="7ae3d6b0dffc11f08001444553540000" type="joystick">
+      <mode name="Flying">
+        <axis id="3" description="Anti-torque">
+          <container type="basic" container_id="1da48d7092dd4517b467f453cc8fc8d6" collapsed="False">
+            <action-set>
+              <vjoyremap vjoy="1" axis="4" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="4" action_id="4fee64100fd34fcb80888185a0ab3b22" priority="9">
                 <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
               </vjoyremap>
             </action-set>
-            <activation-condition rule="all" condition_id="18bc21a870844488b4d188548d6f8c4e"/>
+            <activation-condition rule="all" condition_id="7eae9d89561b4756a19d5f31ef1ff588"/>
           </container>
         </axis>
-        <axis id="2">
-          <container type="basic" container_id="739a96236b4d4da2bd3db6fccf982c71" collapsed="False">
+      </mode>
+    </device>
+    <device name="Mode Control" label="" device-guid="b3b159a04d064bd693f97583ec08b877" type="mode">
+      <mode name="Map">
+        <modecontrol id="0" description="Mode Enter Actions">
+          <container type="basic" container_id="c847c757042b4b159a84a4fb051bd491" collapsed="True">
             <action-set>
-              <vjoyremap vjoy="1" axis="2" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="2" action_id="6c23e0167f654c1185d959752bf4b49c" priority="9">
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="e82c22b114bd47d695e6813894e46809" priority="5">
+                <!--virtual: M 0x4d/77 scan code: 0x32/50 extended: False-->
+                <key virtual-code="77" scan-code="50" extended="False" description="M"/>
                 <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
-              </vjoyremap>
+              </map-to-keyboard-ex>
             </action-set>
-            <activation-condition rule="all" condition_id="c3551b5f87204c36bd49429d1bcebea5"/>
+            <activation-condition rule="all" condition_id="16aa7862b512463f9212803d1d84d69b"/>
           </container>
-        </axis>
+          <container type="basic" container_id="0b8f88893e3043a8ada6ba674716fc8a" collapsed="False">
+            <action-set>
+              <trigger id="af9c10c569cb4a17be63b641264fc5e4" device="559e1d90daa511f08003444553540000" input-type="axis" input="1" exec-on-press="True" exec-on-release="False" actual="False" value="0.00000000" action_id="af9c10c569cb4a17be63b641264fc5e4" priority="5">
+                <!--Trigger device: Throttle - HOTAS Warthog  [559e1d90daa511f08003444553540000]-->
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </trigger>
+            </action-set>
+            <activation-condition rule="all" condition_id="12fc6fec72c040bbb4084204960f0e77"/>
+          </container>
+        </modecontrol>
+        <modecontrol id="1" description="Mode Exit Actions">
+          <container type="basic" container_id="dba48af4acbc48098e2f945086bb272e" collapsed="True">
+            <action-set>
+              <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="a114d6f200974e12be0ab8ad06f89ada" priority="5">
+                <!--virtual: M 0x4d/77 scan code: 0x32/50 extended: False-->
+                <key virtual-code="77" scan-code="50" extended="False" description="M"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              </map-to-keyboard-ex>
+            </action-set>
+            <activation-condition rule="all" condition_id="00c65fbecdc0412a9dc76ba3ec9a6a76"/>
+          </container>
+        </modecontrol>
       </mode>
     </device>
   </devices>
   <settings>
     <default-delay>0.05000000</default-delay>
     <input-filter>
+      <device id="745336c0f29a11ee8001444553540000" name="Controller (XBOX 360 For Windows)"/>
+      <device id="818672c097cc11f08001444553540000" name="Controller (XBOX 360 For Windows)"/>
+      <device id="571374f0daa411f08001444553540000" name="Joystick - HOTAS Warthog"/>
+      <filter device="571374f0daa411f08001444553540000" type="axis" id="1" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="axis" id="2" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="1" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="2" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="3" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="4" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="5" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="6" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="7" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="8" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="9" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="10" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="11" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="12" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="13" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="14" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="15" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="16" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="17" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="18" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="button" id="19" filter="False"/>
+      <filter device="571374f0daa411f08001444553540000" type="hat" id="1" filter="False"/>
       <device id="7ae3d6b0dffc11f08001444553540000" name="T-Rudder"/>
       <filter device="7ae3d6b0dffc11f08001444553540000" type="axis" id="1" filter="False"/>
       <filter device="7ae3d6b0dffc11f08001444553540000" type="axis" id="2" filter="False"/>
@@ -80,31 +594,6 @@
       <filter device="559e1d90daa511f08003444553540000" type="button" id="31" filter="False"/>
       <filter device="559e1d90daa511f08003444553540000" type="button" id="32" filter="False"/>
       <filter device="559e1d90daa511f08003444553540000" type="hat" id="1" filter="False"/>
-      <device id="571374f0daa411f08001444553540000" name="Joystick - HOTAS Warthog"/>
-      <filter device="571374f0daa411f08001444553540000" type="axis" id="1" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="axis" id="2" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="1" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="2" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="3" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="4" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="5" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="6" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="7" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="8" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="9" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="10" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="11" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="12" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="13" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="14" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="15" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="16" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="17" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="18" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="button" id="19" filter="False"/>
-      <filter device="571374f0daa411f08001444553540000" type="hat" id="1" filter="False"/>
-      <device id="745336c0f29a11ee8001444553540000" name="Controller (XBOX 360 For Windows)"/>
-      <device id="818672c097cc11f08001444553540000" name="Controller (XBOX 360 For Windows)"/>
     </input-filter>
   </settings>
   <plugins/>
