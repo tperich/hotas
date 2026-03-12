@@ -1,0 +1,35 @@
+<PadSetting>
+  <PadSettingChecksum>27eb58b5-eae5-e596-d268-abaca67991e4</PadSettingChecksum>
+  <DPadDown>32</DPadDown>
+  <DPadUp>31</DPadUp>
+  <GamePadType>1</GamePadType>
+  <LeftMotorPeriod>60</LeftMotorPeriod>
+  <LeftThumbAxisX>a4</LeftThumbAxisX>
+  <LeftThumbAxisY>a3</LeftThumbAxisY>
+  <LeftThumbDeadZoneY>11468</LeftThumbDeadZoneY>
+  <RightMotorPeriod>120</RightMotorPeriod>
+  <RightThumbAntiDeadZoneX>1638</RightThumbAntiDeadZoneX>
+  <RightThumbAntiDeadZoneY>1638</RightThumbAntiDeadZoneY>
+  <RightThumbAxisX>a1</RightThumbAxisX>
+  <RightThumbAxisY>a-2</RightThumbAxisY>
+  <RightThumbDeadZoneX>328</RightThumbDeadZoneX>
+  <RightThumbDeadZoneY>328</RightThumbDeadZoneY>
+  <LeftThumbLinearX>75</LeftThumbLinearX>
+  <LeftThumbLinearY>-90</LeftThumbLinearY>
+  <RightThumbLinearX>-40</RightThumbLinearX>
+  <RightThumbLinearY>-40</RightThumbLinearY>
+  <ButtonADeadZone>8192</ButtonADeadZone>
+  <ButtonBDeadZone>8192</ButtonBDeadZone>
+  <ButtonBackDeadZone>8192</ButtonBackDeadZone>
+  <ButtonStartDeadZone>8192</ButtonStartDeadZone>
+  <ButtonXDeadZone>8192</ButtonXDeadZone>
+  <ButtonYDeadZone>8192</ButtonYDeadZone>
+  <LeftThumbButtonDeadZone>8192</LeftThumbButtonDeadZone>
+  <RightThumbButtonDeadZone>8192</RightThumbButtonDeadZone>
+  <LeftShoulderDeadZone>8192</LeftShoulderDeadZone>
+  <RightShoulderDeadZone>8192</RightShoulderDeadZone>
+  <DPadDownDeadZone>8192</DPadDownDeadZone>
+  <DPadLeftDeadZone>8192</DPadLeftDeadZone>
+  <DPadRightDeadZone>8192</DPadRightDeadZone>
+  <DPadUpDeadZone>8192</DPadUpDeadZone>
+</PadSetting>
