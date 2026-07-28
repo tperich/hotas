@@ -5,6 +5,7 @@
     <mode name="b3b159a04d064bd693f97583ec08b877"/>
     <mode name="Flying"/>
     <mode name="Map"/>
+    <mode name="Driving"/>
   </modes>
   <devices>
     <device name="Throttle - HOTAS Warthog" label="" device-guid="559e1d90daa511f08003444553540000" type="joystick">
@@ -12,8 +13,10 @@
         <axis id="3" description="Collective">
           <container type="basic" container_id="3c029f7a8cba498f924f2969af2fd41f" collapsed="False">
             <action-set>
-              <vjoyremap vjoy="1" axis="3" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="3" action_id="4ece6ed9075544b99401acc539586c1b" priority="9">
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              <vjoyremap vjoy="1" axis="3" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" grid-visible="True" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="3" action_id="4ece6ed9075544b99401acc539586c1b" priority="9">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </vjoyremap>
             </action-set>
             <activation-condition rule="all" condition_id="276fa08deb584dbe8cdd77f37e32c90d"/>
@@ -25,7 +28,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="17ae7978b8774c599990627ff46aa05d" priority="5">
                 <!--virtual: Mouse 5 (back) 0x0/0 scan code: 0x1005/4101 extended: False-->
                 <key virtual-code="0" scan-code="4101" extended="False" description="Mouse 5 (back)"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="ff20287a415d4497b70c0cacf43d361c"/>
@@ -37,7 +42,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="34449a97606646ea817e5a5cccf457bc" priority="5">
                 <!--virtual: L 0x4c/76 scan code: 0x26/38 extended: False-->
                 <key virtual-code="76" scan-code="38" extended="False" description="L"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="72cad3f57f464aa8a86ea0ebd8f4653a"/>
@@ -49,7 +56,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="6761df0eb0364c189ed50fa08efda76e" priority="5">
                 <!--virtual: R 0x52/82 scan code: 0x13/19 extended: False-->
                 <key virtual-code="82" scan-code="19" extended="False" description="R"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="c68c52b31e144fb586d30004473d63fc"/>
@@ -61,7 +70,9 @@
               <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="8368b0dd2d1d440bbec2178101692712" priority="5">
                 <!--virtual: C 0x43/67 scan code: 0x2e/46 extended: False-->
                 <key virtual-code="67" scan-code="46" extended="False" description="C"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="558a059a801c4939972382db966e195f"/>
@@ -73,7 +84,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="5556cf7fd56144ffbc9eb7f81b35ab63" priority="5">
                 <!--virtual: Play/Pause 0xb3/179 scan code: 0x22/34 extended: True-->
                 <key virtual-code="179" scan-code="34" extended="True" description="Play/Pause"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="bdd038b2c9f24b6a99486d64836965d1"/>
@@ -85,7 +98,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="11d73f45b075480880d09f5681176d11" priority="5">
                 <!--virtual: Volume Up 0xaf/175 scan code: 0x30/48 extended: True-->
                 <key virtual-code="175" scan-code="48" extended="True" description="Volume Up"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="9c1c4352a52040aaa0cefbb2096b64ba"/>
@@ -97,7 +112,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="c48ce28dbe6943fd8da6ddd27754d8db" priority="5">
                 <!--virtual: Next Track 0xb0/176 scan code: 0x21/33 extended: True-->
                 <key virtual-code="176" scan-code="33" extended="True" description="Next Track"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="19ba29f3e46e4f09aa218c0f4b0f9e50"/>
@@ -109,7 +126,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="fdc5c27d3fcb42579b05bb9ec942275a" priority="5">
                 <!--virtual: Volume Down 0xae/174 scan code: 0x1e/30 extended: True-->
                 <key virtual-code="174" scan-code="30" extended="True" description="Volume Down"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="4a05175a82a2430d888c9a3cc5ea0a16"/>
@@ -121,7 +140,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="7bb7b3f3b2af4dfba66452f5d953e4eb" priority="5">
                 <!--virtual: Prev Track 0xb1/177 scan code: 0x23/35 extended: True-->
                 <key virtual-code="177" scan-code="35" extended="True" description="Prev Track"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="a693aababf0d4f918a9e87a6ef296522"/>
@@ -131,7 +152,9 @@
           <container type="basic" container_id="fb7b0a7f1f4648358f6d774aa679dd5b" collapsed="False">
             <action-set>
               <temporary-mode-switch name="Map" return-mode-enabled="False" return-mode="none" exec-on-press="True" exec-on-release="False" action_id="4aea8eb58a04437b9eecb11c7aa34883" priority="999">
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </temporary-mode-switch>
             </action-set>
             <activation-condition rule="all" condition_id="efa22274e029421ca1a829c1c1ddb8f0"/>
@@ -145,11 +168,13 @@
                 <actions>
                   <key scan-code="58" extended="False" press="True"/>
                   <key scan-code="58" extended="False" press="False"/>
-                  <pause duration="0.12786340713500977" duration_max="0" is_random="False"/>
+                  <pause duration="0.12786340713500977" duration_max="0.0" is_random="False"/>
                   <key scan-code="58" extended="False" press="True"/>
                   <key scan-code="58" extended="False" press="False"/>
                 </actions>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </macro>
             </action-set>
             <activation-condition rule="all" condition_id="1b7b340329014850bd935b5d49ddec32"/>
@@ -161,7 +186,9 @@
               <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="6ceb5383c61d4f67bbbbb6571528e9ee" priority="5">
                 <!--virtual: Mouse 4 (forward) 0x0/0 scan code: 0x1004/4100 extended: False-->
                 <key virtual-code="0" scan-code="4100" extended="False" description="Mouse 4 (forward)"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="a4b4092b5674446eb49018ae2669b666"/>
@@ -173,7 +200,9 @@
               <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="cc85acf4146f4f6dbab7d7c33e41bb6c" priority="5">
                 <!--virtual: N 0x4e/78 scan code: 0x31/49 extended: False-->
                 <key virtual-code="78" scan-code="49" extended="False" description="N"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <virtual-button south="1"/>
@@ -290,7 +319,7 @@
         <button id="18" description="Deploy Flares">
           <container type="basic" container_id="80348644e3d64cbd9dfe99da437202bd" collapsed="False">
             <action-set>
-              <map-to-keyboard-ex mode="hold" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="65a822870b8041cd81c6c51cbfe0844e" priority="5">
+              <map-to-keyboard-ex mode="autorepeat" delay="100" interval="100" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="65a822870b8041cd81c6c51cbfe0844e" priority="5">
                 <!--virtual: Left Shift 0xa0/160 scan code: 0x2a/42 extended: False-->
                 <key virtual-code="160" scan-code="42" extended="False" description="Left Shift"/>
                 <!--virtual: F 0x46/70 scan code: 0x21/33 extended: False-->
@@ -476,8 +505,10 @@
         <axis id="3" description="Anti-torque">
           <container type="basic" container_id="1da48d7092dd4517b467f453cc8fc8d6" collapsed="False">
             <action-set>
-              <vjoyremap vjoy="1" axis="4" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="4" action_id="4fee64100fd34fcb80888185a0ab3b22" priority="9">
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+              <vjoyremap vjoy="1" axis="4" mode="VJoyAxis" exec_on_press="True" exec_on_release="False" sync-mode="0" axis-type="absolute" axis-scaling="1.00000000" axis_start_value="0.00000000" range_low="-1.00000000" range_high="1.00000000" output_range_low="-1.00000000" output_range_high="1.00000000" reverse="False" auto_release="False" ignore-release="False" grid-visible="True" target_value="0.00000000" target_relative="False" relative_value="0.20000000" use_relative_value="False" relative_pulse_delay="100" start_pressed="False" paired="False" grid_visible="True" input="4" action_id="4fee64100fd34fcb80888185a0ab3b22" priority="9">
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </vjoyremap>
             </action-set>
             <activation-condition rule="all" condition_id="7eae9d89561b4756a19d5f31ef1ff588"/>
@@ -493,7 +524,9 @@
               <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="e82c22b114bd47d695e6813894e46809" priority="5">
                 <!--virtual: M 0x4d/77 scan code: 0x32/50 extended: False-->
                 <key virtual-code="77" scan-code="50" extended="False" description="M"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="16aa7862b512463f9212803d1d84d69b"/>
@@ -502,7 +535,9 @@
             <action-set>
               <trigger id="af9c10c569cb4a17be63b641264fc5e4" device="559e1d90daa511f08003444553540000" input-type="axis" input="1" exec-on-press="True" exec-on-release="False" actual="False" value="0.00000000" action_id="af9c10c569cb4a17be63b641264fc5e4" priority="5">
                 <!--Trigger device: Throttle - HOTAS Warthog  [559e1d90daa511f08003444553540000]-->
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </trigger>
             </action-set>
             <activation-condition rule="all" condition_id="12fc6fec72c040bbb4084204960f0e77"/>
@@ -514,7 +549,9 @@
               <map-to-keyboard-ex mode="pulse" delay="250" interval="250" sync-mode="0" exec_on_press="True" exec_on_release="False" wheel-factor="1" action_id="a114d6f200974e12be0ab8ad06f89ada" priority="5">
                 <!--virtual: M 0x4d/77 scan code: 0x32/50 extended: False-->
                 <key virtual-code="77" scan-code="50" extended="False" description="M"/>
-                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True"/>
+                <remote-config custom="False" local="True" remote="False" remote-profile="True" singleton="False" target-process="False" partial-title="True">
+                  <client client-name="Any" selected="True"/>
+                </remote-config>
               </map-to-keyboard-ex>
             </action-set>
             <activation-condition rule="all" condition_id="00c65fbecdc0412a9dc76ba3ec9a6a76"/>

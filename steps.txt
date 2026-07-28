@@ -1,0 +1,7 @@
+1. Install vJoy v2.1.9.1 (https://github.com/BrunnerInnovation/vJoy/releases/)
+2. Install ViGEmBus 1.22.0 (https://github.com/nefarius/ViGEmBus/releases)
+3. Install HidHide 1.5.230 (https://github.com/nefarius/HidHide/releases)
+4. Install Joystick Gremlin Ex 1.0ex (m76RC13) (https://github.com/muchimi/JoystickGremlinEx/releases)
+6. Install x360ce 4.17.15.0 (Build: 2020-22-15) (https://github.com/x360ce/x360ce/releases)
+
+?. Open :Configure vJoy", set the correct amount of axes, buttons, hats (8/32/1) for me, although we will not use most of them, it's good to have some space available for bindings.
